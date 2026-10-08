@@ -126,6 +126,18 @@ document.addEventListener('DOMContentLoaded', function() {
       bookingForm.reset();
       bookingForm.classList.remove('hidden');
       document.getElementById('bookingSuccess').classList.add('hidden');
+      document.querySelectorAll('.service-pill').forEach(function (pill) { pill.classList.remove('is-active'); });
     });
   }
+  
+  // Quick service pills
+  document.querySelectorAll('.service-pill').forEach(function (pill) {
+    pill.addEventListener('click', function () {
+      const select = document.getElementById('service');
+      if (select) select.value = pill.dataset.service;
+      document.querySelectorAll('.service-pill').forEach(function (p) {
+        p.classList.toggle('is-active', p === pill);
+      });
+    });
+  });
 });

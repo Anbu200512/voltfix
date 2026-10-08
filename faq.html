@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <title>VoltFix - FAQ | Power Your Drive. Fix It Right.</title>
   <meta name="description" content="Frequently asked questions about VoltFix battery and auto electrical services.">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -10,7 +11,7 @@
     tailwind.config = { darkMode:'class', theme:{ extend:{ colors:{ primary:{50:'#fef3c7',100:'#fde68a',200:'#fcd34d',300:'#fbbf24',400:'#f59e0b',500:'#ea580c',600:'#d97706',700:'#b45309',800:'#92400e',900:'#78350f'} } } } }
   </script>
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=4">
 </head>
 <body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
   <div id="navbar"></div>
@@ -44,7 +45,7 @@
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">A professional battery test typically takes 5-10 minutes using our diagnostic equipment, and you get a printed report showing state of charge, cranking health and the battery's reserve capacity.</p>
+          <p class="text-gray-600 dark:text-gray-400">Around 10 minutes. We test state of charge, cranking health and reserve capacity, then print your results so you know exactly where your battery stands.</p>
         </div>
       </div>
       <div class="card faq-item animate-on-scroll" data-category="battery">
@@ -54,7 +55,7 @@
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">Slow cranking, dim headlights while idling, electronics that reset, a swollen battery case or a battery over about 4 years old are all signs it's time for a professional test. Battery health can drop suddenly in cold weather.</p>
+          <p class="text-gray-600 dark:text-gray-400">Slow cranking, dim headlights at idle, electronics that reset, or a battery over 4 years old are all signs. A quick load test tells us for sure before you spend anything.</p>
         </div>
       </div>
       <div class="card faq-item animate-on-scroll" data-category="battery">
@@ -64,17 +65,7 @@
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">Yes, we responsibly dispose of old batteries in accordance with environmental regulations as part of our replacement service.</p>
-        </div>
-      </div>
-      <div class="card faq-item animate-on-scroll" data-category="battery">
-        <button class="faq-question w-full flex items-center justify-between p-6 text-left gap-4">
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Do you offer a warranty on repairs?</h3>
-          <span class="hidden sm:inline-flex flex-shrink-0 text-xs font-medium bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 px-2.5 py-1 rounded-full">Batteries</span>
-          <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
-        </button>
-        <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">Yes, all our repair work comes with a 12-month workmanship warranty. Battery warranties are additionally covered by the manufacturer's guarantee.</p>
+          <p class="text-gray-600 dark:text-gray-400">Yes. Old batteries are recycled responsibly and we look after the disposal as part of every battery replacement.</p>
         </div>
       </div>
       <div class="card faq-item animate-on-scroll" data-category="diagnostics">
@@ -84,47 +75,37 @@
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">Yes, we perform comprehensive alternator diagnostics including output voltage and load testing to confirm whether the alternator is charging correctly under demand.</p>
+          <p class="text-gray-600 dark:text-gray-400">Yes. We run output voltage and load tests to confirm the alternator is charging correctly under real driving demand.</p>
         </div>
       </div>
       <div class="card faq-item animate-on-scroll" data-category="diagnostics">
         <button class="faq-question w-full flex items-center justify-between p-6 text-left gap-4">
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">How do I know if it's my battery or my alternator?</h3>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Why won't my car start - battery, alternator or starter?</h3>
           <span class="hidden sm:inline-flex flex-shrink-0 text-xs font-medium bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 px-2.5 py-1 rounded-full">Diagnostics</span>
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">If the vehicle cranks slowly or not at all, it's usually the battery. If it starts fine but the battery light stays on or it dies while driving, the alternator is more likely. Our testing confirms the exact cause.</p>
+          <p class="text-gray-600 dark:text-gray-400">Slow cranking usually points to the battery; a click or no response points to the starter; a battery light that stays on points to the alternator. Our diagnostic bay isolates the fault in about 30 minutes.</p>
         </div>
       </div>
       <div class="card faq-item animate-on-scroll" data-category="diagnostics">
         <button class="faq-question w-full flex items-center justify-between p-6 text-left gap-4">
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Why is my dashboard battery light flickering?</h3>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Do your repairs come with a warranty?</h3>
           <span class="hidden sm:inline-flex flex-shrink-0 text-xs font-medium bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 px-2.5 py-1 rounded-full">Diagnostics</span>
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">A flickering battery light usually points to an intermittent charging fault - often a worn alternator belt, loose connector or a failing alternator diode. It's worth booking a load test before it strands you.</p>
-        </div>
-      </div>
-      <div class="card faq-item animate-on-scroll" data-category="diagnostics">
-        <button class="faq-question w-full flex items-center justify-between p-6 text-left gap-4">
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Do you service all vehicle makes and models?</h3>
-          <span class="hidden sm:inline-flex flex-shrink-0 text-xs font-medium bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 px-2.5 py-1 rounded-full">Diagnostics</span>
-          <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
-        </button>
-        <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">Yes, we work on cars, SUVs, vans and light trucks from all major manufacturers, both petrol and diesel - including EV and hybrid charging systems.</p>
+          <p class="text-gray-600 dark:text-gray-400">Every repair is backed by our 12-month workmanship warranty, and new batteries carry the manufacturer's warranty on top.</p>
         </div>
       </div>
       <div class="card faq-item animate-on-scroll" data-category="booking">
         <button class="faq-question w-full flex items-center justify-between p-6 text-left gap-4">
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Do you offer same-day battery replacement?</h3>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">How do I book a service?</h3>
           <span class="hidden sm:inline-flex flex-shrink-0 text-xs font-medium bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 px-2.5 py-1 rounded-full">Bookings</span>
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">Yes, for most vehicles we can provide same-day battery replacement depending on stock availability. Call us before closing to check fitment.</p>
+          <p class="text-gray-600 dark:text-gray-400">Call us or use the contact form - we'll confirm a time, a fixed quote and usually a same-day slot for batteries.</p>
         </div>
       </div>
       <div class="card faq-item animate-on-scroll" data-category="booking">
@@ -134,7 +115,7 @@
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">Yes - our mobile van carries batteries and test gear for the common jobs, so battery testing, jump starts and replacement can often be done right in your driveway or workplace car park across greater Melbourne.</p>
+          <p class="text-gray-600 dark:text-gray-400">Yes - battery testing, jump starts and replacements can be done in your driveway or car park across greater Melbourne.</p>
         </div>
       </div>
       <div class="card faq-item animate-on-scroll" data-category="booking">
@@ -144,27 +125,7 @@
           <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
         </button>
         <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">We accept cash, EFTPOS, credit and debit cards, as well as bank transfer for larger jobs. Payment is due on completion of the work.</p>
-        </div>
-      </div>
-      <div class="card faq-item animate-on-scroll" data-category="booking">
-        <button class="faq-question w-full flex items-center justify-between p-6 text-left gap-4">
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Can I get help outside business hours?</h3>
-          <span class="hidden sm:inline-flex flex-shrink-0 text-xs font-medium bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 px-2.5 py-1 rounded-full">Bookings</span>
-          <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
-        </button>
-        <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">For urgent battery issues, call us on +61 3 9123 4567. We'll advise on immediate steps and arrange the earliest possible assistance.</p>
-        </div>
-      </div>
-      <div class="card faq-item animate-on-scroll" data-category="booking">
-        <button class="faq-question w-full flex items-center justify-between p-6 text-left gap-4">
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Do I need an appointment?</h3>
-          <span class="hidden sm:inline-flex flex-shrink-0 text-xs font-medium bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 px-2.5 py-1 rounded-full">Bookings</span>
-          <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 flex-shrink-0"></i>
-        </button>
-        <div class="faq-answer px-6 pb-6">
-          <p class="text-gray-600 dark:text-gray-400">Walk-ins are welcome, but booking online or by phone guarantees your slot and reduces waiting time, especially for diagnostics.</p>
+          <p class="text-gray-600 dark:text-gray-400">EFTPOS, credit and debit cards, cash, and bank transfer for larger jobs. Payment is due on completion.</p>
         </div>
       </div>
       </div>
@@ -221,7 +182,7 @@
   <script src="js/navbar.js"></script>
   <script src="js/footer.js"></script>
   <script src="js/nav.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js?v=4"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var btns = document.querySelectorAll('.filter-btn');
