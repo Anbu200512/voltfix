@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoltFix - Gallery | Power Your Drive. Fix It Right.</title>
+  <meta name="description" content="View our workshop, battery services, wiring repairs and diagnostic work at VoltFix.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode:'class', theme:{ extend:{ colors:{ primary:{50:'#fef3c7',100:'#fde68a',200:'#fcd34d',300:'#fbbf24',400:'#f59e0b',500:'#ea580c',600:'#d97706',700:'#b45309',800:'#92400e',900:'#78350f'} } } } }
+  </script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+  <div id="navbar"></div>
+  <div class="h-16"></div>
+<section class="relative overflow-hidden bg-gray-950 text-white">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat opacity-25"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-gray-950/70 via-gray-950/85 to-gray-950"></div>
+    <div class="absolute -top-24 right-1/4 w-80 h-80 bg-orange-500/20 blur-3xl rounded-full pointer-events-none"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24 text-center animate-on-scroll">
+      <span class="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur px-4 py-1.5 rounded-full text-sm mb-6">
+        <i data-lucide="images" class="w-4 h-4 text-yellow-400"></i>
+        Fresh from the workshop
+      </span>
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Our <span class="text-gradient">Gallery</span></h1>
+      <p class="text-xl text-gray-200 max-w-2xl mx-auto">Real work, real results from the VoltFix workshop and on the road in Melbourne.</p>
+    </div>
+  </section>
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap gap-3 justify-center mb-10 animate-on-scroll">
+        <button class="filter-btn is-active bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 px-5 py-2 rounded-full text-sm font-medium hover:border-orange-500 transition-all" data-filter="all">All</button>
+        <button class="filter-btn bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 px-5 py-2 rounded-full text-sm font-medium hover:border-orange-500 transition-all" data-filter="battery">Battery</button>
+        <button class="filter-btn bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 px-5 py-2 rounded-full text-sm font-medium hover:border-orange-500 transition-all" data-filter="repairs">Repairs</button>
+        <button class="filter-btn bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 px-5 py-2 rounded-full text-sm font-medium hover:border-orange-500 transition-all" data-filter="workshop">Workshop</button>
+        <button class="filter-btn bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 px-5 py-2 rounded-full text-sm font-medium hover:border-orange-500 transition-all" data-filter="electric">Electric &amp; Hybrid</button>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card overflow-hidden animate-on-scroll" data-category="battery">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Battery diagnostic testing" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Battery</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">Battery Diagnostic Testing</h3><p class="text-sm text-gray-500 dark:text-gray-400">Load & CCA testing with printed report</p></div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll" data-category="battery">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Car battery replacement" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Battery</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">Battery Replacement</h3><p class="text-sm text-gray-500 dark:text-gray-400">Supply, fit, test & responsible disposal</p></div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll" data-category="repairs">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Automotive wiring repair" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Repairs</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">Wiring Harness Repair</h3><p class="text-sm text-gray-500 dark:text-gray-400">Fault tracing and professional re-termination</p></div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll" data-category="battery">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Alternator diagnostics" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Battery</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">Alternator Diagnostics</h3><p class="text-sm text-gray-500 dark:text-gray-400">Output voltage and load testing</p></div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll" data-category="workshop">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Auto electrical workshop" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Workshop</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">Our Workshop</h3><p class="text-sm text-gray-500 dark:text-gray-400">Fully equipped auto electrical bay</p></div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll" data-category="repairs">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Starter motor diagnostics" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Repairs</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">Starter Motor Testing</h3><p class="text-sm text-gray-500 dark:text-gray-400">Cranking current and solenoid checks</p></div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll" data-category="electric">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Electric vehicle rapid charging" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Electric &amp; Hybrid</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">EV &amp; Hybrid Charging Checks</h3><p class="text-sm text-gray-500 dark:text-gray-400">High-voltage system health & charge-point testing</p></div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll" data-category="workshop">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Classic car electrical restoration" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Workshop</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">Classic Car Restorations</h3><p class="text-sm text-gray-500 dark:text-gray-400">Rewires, relays and period-correct electronics</p></div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll" data-category="repairs">
+          <div class="relative overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Engine bay electrical service" class="gallery-item w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 bg-black/60 text-white text-xs font-medium px-2.5 py-1 rounded-full backdrop-blur">Repairs</span>
+          </div>
+          <div class="p-4"><h3 class="font-semibold text-gray-900 dark:text-white">Engine Bay Service</h3><p class="text-sm text-gray-500 dark:text-gray-400">Battery terminals, grounds and fuse checks</p></div>
+        </div>
+      </div>
+      <p class="text-center text-gray-500 dark:text-gray-400 mt-8 animate-on-scroll"><i data-lucide="mouse-pointer-click" class="w-4 h-4 inline mr-1"></i>Click any image to enlarge</p>
+    </div>
+  </section>
+  
+  <!-- CTA -->
+  <section class="relative py-20 overflow-hidden bg-gray-950 text-white">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat opacity-20"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-gray-950 via-gray-950/85 to-gray-950/60"></div>
+    <div class="absolute -top-24 right-10 w-80 h-80 bg-orange-500/25 blur-3xl rounded-full pointer-events-none"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div class="animate-on-scroll">
+          <span class="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur px-4 py-1.5 rounded-full text-sm mb-6">
+            <i data-lucide="zap" class="w-4 h-4 text-yellow-400"></i>
+            Want results like these?
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-bold mb-4 leading-tight">Book your battery or electrical <span class="text-gradient">service today</span></h2>
+          <p class="text-xl text-gray-200 mb-6 max-w-lg">Every job leaves the workshop with a printed report and our 12-month workmanship warranty.</p>
+          <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-300">
+            <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-400"></i> Same-day appointments</span>
+            <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-400"></i> Fixed quotes before work starts</span>
+          </div>
+        </div>
+        <div class="animate-on-scroll">
+          <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 sm:p-8 shadow-2xl">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-600 rounded-full flex items-center justify-center shadow-lg shadow-orange-500/40">
+                <i data-lucide="phone" class="w-6 h-6 text-white"></i>
+              </div>
+              <div>
+                <p class="text-sm text-gray-300">Call us now</p>
+                <a href="tel:+61391234567" class="text-2xl font-bold hover:text-yellow-400 transition-colors">+61 3 9123 4567</a>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <a href="contact.html" class="btn-primary flex-1 justify-center text-base py-3.5"><i data-lucide="calendar"></i> Book Service</a>
+              <a href="services.html" class="btn-secondary btn-glass flex-1 justify-center text-base py-3.5"><i data-lucide="list"></i> View Services</a>
+            </div>
+            <div class="flex items-center justify-between text-xs text-gray-300 mt-5 pt-4 border-t border-white/10">
+              <span class="flex items-center gap-1.5"><i data-lucide="clock" class="w-3.5 h-3.5"></i> Mon-Fri 8:00-17:30 &bull; Sat 8:00-12:00</span>
+              <span class="flex items-center gap-1.5 text-green-300"><span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span> Accepting bookings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 z-[70] hidden items-center justify-center bg-black/90 p-4">
+    <button id="lightboxClose" aria-label="Close" class="absolute top-4 right-4 p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-colors"><i data-lucide="x" class="w-6 h-6"></i></button>
+    <button id="lightboxPrev" aria-label="Previous image" class="absolute left-4 p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-colors"><i data-lucide="chevron-left" class="w-6 h-6"></i></button>
+    <figure class="max-w-5xl w-full text-center">
+      <img id="lightboxImg" src="" alt="" class="max-h-[80vh] w-auto mx-auto rounded-lg shadow-2xl">
+      <figcaption id="lightboxCaption" class="text-gray-200 mt-4 text-sm"></figcaption>
+    </figure>
+    <button id="lightboxNext" aria-label="Next image" class="absolute right-4 p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-colors"><i data-lucide="chevron-right" class="w-6 h-6"></i></button>
+  </div>
+  <div id="footer"></div>
+
+  <button id="backToTop" class="fixed bottom-8 right-8 z-40 hidden bg-orange-600 hover:bg-orange-700 text-white p-3 rounded-full shadow-lg transition-all duration-200"><i data-lucide="arrow-up"></i></button>
+  <script src="js/navbar.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

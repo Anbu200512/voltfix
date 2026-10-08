@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoltFix - Home 2 | Power Your Drive. Fix It Right.</title>
+  <meta name="description" content="VoltFix - Premium auto electrical & battery service. Different layout with modern design.">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#fef3c7', 100: '#fde68a', 200: '#fcd34d', 300: '#fbbf24', 400: '#f59e0b', 500: '#ea580c',
+              600: '#d97706', 700: '#b45309', 800: '#92400e', 900: '#78350f',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+  <!-- Navigation -->
+  <div id="navbar"></div>
+  
+  <div class="h-16"></div> <!-- Spacer -->
+  
+  <!-- Hero -->
+  <section class="bg-gray-950 relative overflow-hidden">
+    <div class="absolute -top-24 -left-24 w-80 h-80 bg-orange-500/25 blur-3xl rounded-full pointer-events-none"></div>
+    <div class="absolute -bottom-32 right-0 w-96 h-96 bg-blue-500/15 blur-3xl rounded-full pointer-events-none"></div>
+    <div class="relative z-10 px-6 sm:px-10 lg:px-14 py-20 lg:py-28 max-w-3xl mx-auto text-center">
+      <span class="inline-flex items-center gap-2 bg-orange-500/15 border border-orange-400/30 text-orange-300 px-4 py-1.5 rounded-full text-sm mb-6">
+        <i data-lucide="zap" class="w-4 h-4"></i>
+        Precision auto electrical care
+      </span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+        Auto Electrical,<br><span class="text-gradient">Diagnosed Properly.</span>
+      </h1>
+      <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+        Battery, charging, starting and wiring faults tracked down with proper test equipment - explained in plain English before any work begins.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center mb-8">
+        <a href="contact.html" class="btn-primary"><i data-lucide="calendar"></i> Book a Service</a>
+        <a href="tel:+61391234567" class="btn-secondary btn-glass"><i data-lucide="phone"></i> +61 3 9123 4567</a>
+      </div>
+      <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-300 justify-center">
+        <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-400"></i> Licensed technicians</span>
+        <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-400"></i> Fixed quotes upfront</span>
+        <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-400"></i> 12-month warranty</span>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Service Index -->
+  <section class="py-20 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap items-end justify-between gap-4 mb-10 animate-on-scroll">
+        <div>
+          <p class="text-orange-600 dark:text-orange-400 font-semibold text-sm uppercase tracking-widest mb-2">What we fix</p>
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">Service Index</h2>
+        </div>
+        <a href="services.html" class="btn-secondary">All Services <i data-lucide="arrow-right"></i></a>
+      </div>
+      <div class="border-t border-gray-200 dark:border-gray-700 animate-on-scroll">
+        <a href="services.html" class="group grid md:grid-cols-[4rem_1fr_auto] items-center gap-3 md:gap-6 py-6 border-b border-gray-200 dark:border-gray-700">
+          <span class="text-2xl font-bold text-orange-500/60 group-hover:text-orange-600 transition-colors">01</span>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-1 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">Battery Services</h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">Testing, replacement, charging and safe disposal for all vehicle types.</p>
+          </div>
+          <span class="flex items-center gap-3 text-gray-900 dark:text-white font-semibold whitespace-nowrap">From $89 <i data-lucide="arrow-right" class="w-5 h-5 text-orange-500 group-hover:translate-x-1 transition-transform"></i></span>
+        </a>
+        <a href="services.html" class="group grid md:grid-cols-[4rem_1fr_auto] items-center gap-3 md:gap-6 py-6 border-b border-gray-200 dark:border-gray-700">
+          <span class="text-2xl font-bold text-orange-500/60 group-hover:text-orange-600 transition-colors">02</span>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-1 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">Charging &amp; Alternator</h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">Alternator output testing, belt and voltage regulator faults, replacement.</p>
+          </div>
+          <span class="flex items-center gap-3 text-gray-900 dark:text-white font-semibold whitespace-nowrap">From $149 <i data-lucide="arrow-right" class="w-5 h-5 text-orange-500 group-hover:translate-x-1 transition-transform"></i></span>
+        </a>
+        <a href="services.html" class="group grid md:grid-cols-[4rem_1fr_auto] items-center gap-3 md:gap-6 py-6 border-b border-gray-200 dark:border-gray-700">
+          <span class="text-2xl font-bold text-orange-500/60 group-hover:text-orange-600 transition-colors">03</span>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-1 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">Starting Systems</h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">Starter motors, solenoids and ignition circuit diagnosis.</p>
+          </div>
+          <span class="flex items-center gap-3 text-gray-900 dark:text-white font-semibold whitespace-nowrap">From $129 <i data-lucide="arrow-right" class="w-5 h-5 text-orange-500 group-hover:translate-x-1 transition-transform"></i></span>
+        </a>
+        <a href="services.html" class="group grid md:grid-cols-[4rem_1fr_auto] items-center gap-3 md:gap-6 py-6 border-b border-gray-200 dark:border-gray-700">
+          <span class="text-2xl font-bold text-orange-500/60 group-hover:text-orange-600 transition-colors">04</span>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-1 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">Wiring &amp; Fault Finding</h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">Parasitic drains, shorts, damaged harnesses and fuse faults.</p>
+          </div>
+          <span class="flex items-center gap-3 text-gray-900 dark:text-white font-semibold whitespace-nowrap">From $99 <i data-lucide="arrow-right" class="w-5 h-5 text-orange-500 group-hover:translate-x-1 transition-transform"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Workshop Banner -->
+  <section class="relative overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Technician at work in the VoltFix workshop" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-r from-gray-950 via-gray-950/80 to-gray-950/30"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <div class="max-w-xl animate-on-scroll">
+        <p class="text-orange-400 font-semibold text-sm uppercase tracking-widest mb-2">Inside the workshop</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Every job starts with evidence, not guesses.</h2>
+        <p class="text-gray-300 leading-relaxed mb-8">Test readings, photos and fault reports before a single part is changed - so you can see exactly what's going on with your car.</p>
+        <a href="gallery.html" class="btn-secondary btn-glass"><i data-lucide="camera"></i> Browse the Gallery</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- The VoltFix Difference -->
+  <section class="py-20 bg-white dark:bg-gray-950">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 animate-on-scroll">
+        <p class="text-orange-600 dark:text-orange-400 font-semibold text-sm uppercase tracking-widest mb-2">Honest by design</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">The VoltFix Difference</h2>
+        <p class="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">How a VoltFix job compares with the average workshop experience.</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border-2 border-orange-500 overflow-hidden shadow-lg animate-on-scroll">
+          <div class="bg-gradient-to-r from-yellow-400 to-orange-600 text-white px-6 py-4 font-bold">VoltFix</div>
+          <ul class="divide-y divide-gray-100 dark:divide-gray-800">
+            <li class="flex items-start gap-3 p-4 text-gray-800 dark:text-gray-200"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i> Fixed quote approved before any work starts</li>
+            <li class="flex items-start gap-3 p-4 text-gray-800 dark:text-gray-200"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i> Test readings shown to you, with photos</li>
+            <li class="flex items-start gap-3 p-4 text-gray-800 dark:text-gray-200"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i> 12-month workmanship warranty</li>
+            <li class="flex items-start gap-3 p-4 text-gray-800 dark:text-gray-200"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i> Most jobs completed the same day</li>
+            <li class="flex items-start gap-3 p-4 text-gray-800 dark:text-gray-200"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i> Mobile service across Melbourne</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-gray-200 dark:border-gray-700 overflow-hidden animate-on-scroll">
+          <div class="bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 px-6 py-4 font-bold">Typical workshop</div>
+          <ul class="divide-y divide-gray-100 dark:divide-gray-800">
+            <li class="flex items-start gap-3 p-4 text-gray-500 dark:text-gray-400"><i data-lucide="x-circle" class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5"></i> Hourly rates that grow as the day goes</li>
+            <li class="flex items-start gap-3 p-4 text-gray-500 dark:text-gray-400"><i data-lucide="x-circle" class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5"></i> "Trust us" - no evidence provided</li>
+            <li class="flex items-start gap-3 p-4 text-gray-500 dark:text-gray-400"><i data-lucide="x-circle" class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5"></i> 30 days, parts only</li>
+            <li class="flex items-start gap-3 p-4 text-gray-500 dark:text-gray-400"><i data-lucide="x-circle" class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5"></i> Booked out for a week or more</li>
+            <li class="flex items-start gap-3 p-4 text-gray-500 dark:text-gray-400"><i data-lucide="x-circle" class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5"></i> Workshop drop-off only</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Stats -->
+  <section class="py-16 bg-gray-950 text-white relative overflow-hidden">
+    <div class="absolute -top-32 left-1/3 w-96 h-96 bg-orange-500/15 blur-3xl rounded-full pointer-events-none"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center animate-on-scroll">
+      <div>
+        <div class="text-4xl font-bold text-yellow-400 mb-1"><span class="counter" data-target="15">0</span>+</div>
+        <div class="text-gray-400 text-sm">Years Experience</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-yellow-400 mb-1"><span class="counter" data-target="5000">0</span>+</div>
+        <div class="text-gray-400 text-sm">Happy Customers</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-yellow-400 mb-1"><span class="counter" data-target="98">0</span>%</div>
+        <div class="text-gray-400 text-sm">Same-Day Completion</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-yellow-400 mb-1"><span class="counter" data-target="12">0</span>mo</div>
+        <div class="text-gray-400 text-sm">Workmanship Warranty</div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Fresh From the Bench -->
+  <section class="py-20 bg-white dark:bg-gray-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap items-end justify-between gap-4 mb-12 animate-on-scroll">
+        <div>
+          <p class="text-orange-600 dark:text-orange-400 font-semibold text-sm uppercase tracking-widest mb-2">From the bench</p>
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">Jobs We've Done This Week</h2>
+        </div>
+        <a href="gallery.html" class="btn-secondary">See More <i data-lucide="arrow-right"></i></a>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="card overflow-hidden animate-on-scroll">
+          <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Battery replacement on a Ford Ranger" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-300">
+          <div class="p-5">
+            <span class="inline-block text-xs font-semibold text-orange-600 dark:text-orange-400 uppercase tracking-wider mb-2">Battery</span>
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Mobile swap on a Ford Ranger</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">Dead cell found on load test. High-CCA replacement fitted, tested and coded in 40 minutes at the driver's work carpark.</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">4.9 stars &bull; completed same day</p>
+          </div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll">
+          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Starter motor repair on a Mazda" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-300">
+          <div class="p-5">
+            <span class="inline-block text-xs font-semibold text-orange-600 dark:text-orange-400 uppercase tracking-wider mb-2">Starter</span>
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Starter overhaul on a Mazda CX-5</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">Intermittent no-crank traced to worn solenoid contacts. Rebuilt, bench-tested and refitted - cheaper than a new unit.</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">5.0 stars &bull; completed same day</p>
+          </div>
+        </div>
+        <div class="card overflow-hidden animate-on-scroll">
+          <img src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Alternator diagnostics on a Hyundai" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-300">
+          <div class="p-5">
+            <span class="inline-block text-xs font-semibold text-orange-600 dark:text-orange-400 uppercase tracking-wider mb-2">Charging</span>
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Alternator fault on a Hyundai Tucson</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">Chopped in and out under load testing showed 12.1V output. Voltage regulator replaced, output restored to 14.2V.</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">4.8 stars &bull; completed same day</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonials -->
+  <section class="py-20 bg-gray-100 dark:bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 animate-on-scroll">
+        <p class="text-orange-600 dark:text-orange-400 font-semibold text-sm uppercase tracking-widest mb-2">Driver stories</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">Why Drivers Trust Us</h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="card p-8 animate-on-scroll">
+          <i data-lucide="quote" class="w-10 h-10 text-orange-300 dark:text-orange-500/40 mb-4"></i>
+          <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">"Professionals from start to finish. Showed me the test readings, explained the options and didn't push the expensive one."</p>
+          <div class="flex items-center gap-4 pt-4 border-t border-gray-100 dark:border-gray-700">
+            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Daniel R." class="w-12 h-12 rounded-full object-cover ring-2 ring-orange-500/40">
+            <div class="flex-1">
+              <p class="font-semibold text-gray-900 dark:text-white text-sm">Daniel R.</p>
+              <p class="text-gray-500 text-xs">Holden Commodore owner</p>
+            </div>
+            <div class="flex gap-0.5 text-yellow-400">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card p-8 animate-on-scroll">
+          <i data-lucide="quote" class="w-10 h-10 text-orange-300 dark:text-orange-500/40 mb-4"></i>
+          <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">"Booked online in the evening, got a confirmation call first thing. Diagnosed a dying alternator before it left me stranded."</p>
+          <div class="flex items-center gap-4 pt-4 border-t border-gray-100 dark:border-gray-700">
+            <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="Amy L." class="w-12 h-12 rounded-full object-cover ring-2 ring-orange-500/40">
+            <div class="flex-1">
+              <p class="font-semibold text-gray-900 dark:text-white text-sm">Amy L.</p>
+              <p class="text-gray-500 text-xs">Hyundai Tucson owner</p>
+            </div>
+            <div class="flex gap-0.5 text-yellow-400">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Service Areas -->
+  <section class="py-20 bg-white dark:bg-gray-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-orange-600 dark:text-orange-400 font-semibold text-sm uppercase tracking-widest mb-2 animate-on-scroll">Where we work</p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4 animate-on-scroll">Mobile Service Across Melbourne</h2>
+      <p class="text-gray-600 dark:text-gray-400 text-lg mb-8 animate-on-scroll">Workshop drop-off or we come to you - same-day across the inner south-east and beyond.</p>
+      <div class="flex flex-wrap justify-center gap-3 mb-8 animate-on-scroll">
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Bentleigh</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Carnegie</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Glen Huntly</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Oakleigh</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Malvern</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Caulfield</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Springvale</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Dandenong</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Frankston</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Footscray</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Essendon</span>
+        <span class="px-4 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300 hover:border-orange-400 hover:text-orange-600 transition-colors cursor-default">Preston</span>
+      </div>
+      <p class="text-gray-500 dark:text-gray-400 text-sm animate-on-scroll">Can't see your suburb? Call us - mobile jobs are priced by distance, not suburb.</p>
+    </div>
+  </section>
+  
+  <!-- CTA -->
+  <section class="py-20 bg-gradient-to-r from-yellow-400 to-orange-600 relative overflow-hidden">
+    <div class="absolute -top-20 -left-20 w-72 h-72 bg-white/20 blur-3xl rounded-full pointer-events-none"></div>
+    <div class="absolute -bottom-24 -right-16 w-80 h-80 bg-white/10 blur-3xl rounded-full pointer-events-none"></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4 animate-on-scroll">Electrical problem? We speak fluent volts.</h2>
+      <p class="text-xl text-white/90 mb-6 animate-on-scroll">Get a clear diagnosis and a fair quote - same-day service available.</p>
+      <a href="tel:+61391234567" class="inline-flex items-center gap-2 text-2xl sm:text-3xl font-bold text-white mb-8 hover:underline underline-offset-4 animate-on-scroll"><i data-lucide="phone" class="w-7 h-7"></i> +61 3 9123 4567</a>
+      <div class="flex flex-wrap gap-4 justify-center animate-on-scroll">
+        <a href="contact.html" class="inline-flex items-center gap-2 bg-white text-orange-700 font-semibold px-7 py-3.5 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all"><i data-lucide="calendar"></i> Book Service</a>
+        <a href="faq.html" class="inline-flex items-center gap-2 border-2 border-white text-white font-semibold px-7 py-3.5 rounded-lg hover:bg-white/15 transition-all"><i data-lucide="help-circle"></i> Browse FAQ</a>
+      </div>
+    </div>
+  </section>
+  
+  <div id="footer"></div>
+
+  <script src="js/navbar.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/main.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
